@@ -15,6 +15,11 @@
 		C81287041CA9BD6F003BEE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81287021CA9BD6F003BEE57 /* LaunchScreen.storyboard */; };
 		C812870F1CA9BD6F003BEE57 /* WeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C812870E1CA9BD6F003BEE57 /* WeChatTests.m */; };
 		C812871A1CA9BD6F003BEE57 /* WeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C81287191CA9BD6F003BEE57 /* WeChatUITests.m */; };
+		C812872E1CA9C805003BEE57 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C812872D1CA9C805003BEE57 /* TabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C81287311CA9C85E003BEE57 /* ChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81287301CA9C85E003BEE57 /* ChatsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C81287341CA9C8EF003BEE57 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81287331CA9C8EF003BEE57 /* ContactsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C81287371CA9C916003BEE57 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81287361CA9C916003BEE57 /* DiscoverViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C812873A1CA9C926003BEE57 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81287391CA9C926003BEE57 /* MeViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		C81287151CA9BD6F003BEE57 /* WeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81287191CA9BD6F003BEE57 /* WeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITests.m; sourceTree = "<group>"; };
 		C812871B1CA9BD6F003BEE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C812872C1CA9C805003BEE57 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = WeChat/TabBarViewController.h; sourceTree = "<group>"; };
+		C812872D1CA9C805003BEE57 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = WeChat/TabBarViewController.m; sourceTree = "<group>"; };
+		C812872F1CA9C85E003BEE57 /* ChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatsViewController.h; path = WeChat/ChatsViewController.h; sourceTree = "<group>"; };
+		C81287301CA9C85E003BEE57 /* ChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatsViewController.m; path = WeChat/ChatsViewController.m; sourceTree = "<group>"; };
+		C81287321CA9C8EF003BEE57 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactsViewController.h; path = WeChat/ContactsViewController.h; sourceTree = "<group>"; };
+		C81287331CA9C8EF003BEE57 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactsViewController.m; path = WeChat/ContactsViewController.m; sourceTree = "<group>"; };
+		C81287351CA9C916003BEE57 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverViewController.h; path = WeChat/DiscoverViewController.h; sourceTree = "<group>"; };
+		C81287361CA9C916003BEE57 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverViewController.m; path = WeChat/DiscoverViewController.m; sourceTree = "<group>"; };
+		C81287381CA9C926003BEE57 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = WeChat/MeViewController.h; sourceTree = "<group>"; };
+		C81287391CA9C926003BEE57 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = WeChat/MeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,11 @@
 		C81286E81CA9BD6F003BEE57 = {
 			isa = PBXGroup;
 			children = (
+				C812872B1CA9C207003BEE57 /* Recourse */,
+				C812872A1CA9C18B003BEE57 /* Other SDK */,
+				C81287271CA9C13A003BEE57 /* Models */,
+				C81287281CA9C145003BEE57 /* Views */,
+				C81287291CA9C15C003BEE57 /* Controllers */,
 				C81286F31CA9BD6F003BEE57 /* WeChat */,
 				C812870D1CA9BD6F003BEE57 /* WeChatTests */,
 				C81287181CA9BD6F003BEE57 /* WeChatUITests */,
@@ -138,6 +158,51 @@
 				C812871B1CA9BD6F003BEE57 /* Info.plist */,
 			);
 			path = WeChatUITests;
+			sourceTree = "<group>";
+		};
+		C81287271CA9C13A003BEE57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C81287281CA9C145003BEE57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C81287291CA9C15C003BEE57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C812872C1CA9C805003BEE57 /* TabBarViewController.h */,
+				C812872D1CA9C805003BEE57 /* TabBarViewController.m */,
+				C812872F1CA9C85E003BEE57 /* ChatsViewController.h */,
+				C81287301CA9C85E003BEE57 /* ChatsViewController.m */,
+				C81287321CA9C8EF003BEE57 /* ContactsViewController.h */,
+				C81287331CA9C8EF003BEE57 /* ContactsViewController.m */,
+				C81287351CA9C916003BEE57 /* DiscoverViewController.h */,
+				C81287361CA9C916003BEE57 /* DiscoverViewController.m */,
+				C81287381CA9C926003BEE57 /* MeViewController.h */,
+				C81287391CA9C926003BEE57 /* MeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C812872A1CA9C18B003BEE57 /* Other SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other SDK";
+			sourceTree = "<group>";
+		};
+		C812872B1CA9C207003BEE57 /* Recourse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Recourse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C812872E1CA9C805003BEE57 /* TabBarViewController.m in Sources */,
+				C81287341CA9C8EF003BEE57 /* ContactsViewController.m in Sources */,
+				C81287371CA9C916003BEE57 /* DiscoverViewController.m in Sources */,
 				C81286FC1CA9BD6F003BEE57 /* ViewController.m in Sources */,
 				C81286F91CA9BD6F003BEE57 /* AppDelegate.m in Sources */,
+				C81287311CA9C85E003BEE57 /* ChatsViewController.m in Sources */,
+				C812873A1CA9C926003BEE57 /* MeViewController.m in Sources */,
 				C81286F61CA9BD6F003BEE57 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +566,7 @@
 				C81287201CA9BD6F003BEE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C81287211CA9BD6F003BEE57 /* Build configuration list for PBXNativeTarget "WeChatTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +575,7 @@
 				C81287231CA9BD6F003BEE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C81287241CA9BD6F003BEE57 /* Build configuration list for PBXNativeTarget "WeChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +584,7 @@
 				C81287261CA9BD6F003BEE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
